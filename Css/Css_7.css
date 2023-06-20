@@ -1,0 +1,28 @@
+@media (max-width: 760px) {
+	footer > .fo {
+		width: 90%;
+		margin: 0;
+		margin-left: 10%;
+		margin-top: 25px;
+	}
+}
+@media (max-width: 407px) {
+	footer > .fo {
+		margin-top: 10px;
+	}
+	footer > .fo:nth-child(1) > a {
+		font-size: 20px;
+	}
+	footer > .fo:nth-child(2) {
+		font-size: 15px;
+	}
+}
+@media (max-width: 333px) {
+	footer > .fo:nth-child(1) > a {
+		font-size: 19px;
+	}
+	footer > .fo:nth-child(2) {
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+}

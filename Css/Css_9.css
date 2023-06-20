@@ -1,0 +1,37 @@
+@media (max-width: 780px) {
+	.about > h1 {
+		margin: 7%;
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 400px) {
+	.about > h1 {
+		font-size: 27px;
+	}
+	.card-m > h1 {
+		font-size: 25px;
+	}
+	.card-m > span {
+		font-size: 15px;
+	}
+	.card-m > span > a {
+		font-size: 15px;
+	}
+}
+@media (max-width: 325px) {
+	.about > h1 {
+		font-size: 23px;
+	}
+	.card > .card-m {
+		height: 180px;
+	}
+	.card-m > h1 {
+		font-size: 20px;
+	}
+	.card-m > span {
+		font-size: 12px;
+	}
+	.card-m > span > a {
+		font-size: 12px;
+	}
+}

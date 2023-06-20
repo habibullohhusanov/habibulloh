@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+::selection {
+	background: white;
+	color: red;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #24262b;
+}
+header {
+	overflow: hidden;
+	box-shadow: 2px 2px 10px black;
+}
+header > img {
+	width: 80px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin: 25px;
+	float: left;
+}
+header > h1 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 30px;
+	margin: 45px;
+	margin-left: 0;
+	margin-bottom: 0;
+	float: left;
+	animation: rg 2.5s infinite linear;
+}
+header > a {
+	float: left;
+	margin: 45px;
+	margin-left: 12%;
+	padding: 10px 15px;
+	border: 2px solid #24262b;
+	color: white;
+	text-decoration: none;
+}
+header > a:hover {
+	border: 2px solid white;
+}
+@keyframes rg {
+	10% {
+		color: yellow;
+	}
+	20% {
+		color: #00ffad;
+	}
+	30% {
+		color: red;
+	}
+	40% {
+		color: green;
+	}
+	50% {
+		color: lime;
+	}
+	60% {
+		color: blue;
+	}
+	70% {
+		color: #2dbfd7;
+	}
+	80% {
+		color: gold;
+	}
+	90% {
+		color: grey;
+	}
+	100% {
+		color: #00f3ff;
+	}
+}

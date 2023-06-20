@@ -1,0 +1,8 @@
+@media (max-width: 470px) {
+	section > img {
+		width: 30%;
+		margin: 1%;
+		padding: 1%;
+		border: 2px solid white;
+	}
+}
